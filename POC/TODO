@@ -1,0 +1,9 @@
+- 1512 Number of Good Pairs
+
+- NFT 
+- CrytoCurrency
+xk97VfX@Ahkv8A7
+
+
+
+docker rm -f $(docker ps -aq) && docker rmi -f $(docker images | grep dev | awk '{print $3}') && docker volume prune

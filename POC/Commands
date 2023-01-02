@@ -1,0 +1,14 @@
+-Check Ubuntu Version : lsb_release -a
+- sudo apt purge nodejs
+- sudo apt remove nodejs
+
+
+Killing Running Process which
+- ps aux | grep -i apt
+- sudo kill <process_id>
+- sudo kill -9 <process_id> # Forcefully
+
+
+- https://operations.stitcherp.com/company-admin/
+- abc-Anagh
+- Test@123

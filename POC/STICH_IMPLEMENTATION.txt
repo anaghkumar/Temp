@@ -1,0 +1,57 @@
+
+- https://operations.stitcherp.com/company-admin/
+- abc-Anagh
+- Test@123
+
+
+Style - half sleeve , Full Sleeve
+Categories - Shirt(Top),Paint(Bottom)
+parts - front,back,collor,pocket attached
+
+
+Catalogue (Style at last)
+
+Company
+- Locations
+- Factory
+- Sections(Department)
+- Floor
+
+User Management
+
+Fabric
+- input all things (mills,)
+- Fabric Order
+- Selvedge Variation - (Corner tieing so that it does not apart 1cm, 2cm)
+- Gray Scale - Colour Fastening
+- Crocking (Rubbing) - Colour Fade after rubbing
+- warp weft- top bottom pattern
+
+
+Style -Row Actions - Operation Bulletein (all the process to prepare the style)
+Defect Bulletein Template(Operation)
+
+Cut Plan
+- Cut Request
+
+SAM - Standard Allowed Minute
+Capacity Calculate on basis of machine and sam and worker
+
+
+- Learning Curve  (Mandatory)
+- Operation Bulletein makrk as output (Mandatory)
+
+
+api-supervisor
+auriga123
+
+api-mechanic
+auriga123
+
+Step 1- 
+
+Tablet App 
+
+SFC APP
+Supervisor,Line Recorder,Roaming QC,Mechanic(Ondemand,Schedule)
+Maintence - Add Machine

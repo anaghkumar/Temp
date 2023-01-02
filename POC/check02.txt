@@ -1,0 +1,22 @@
+Products - Variants/Bundled/Subscription/ => DONE (With Filtering and Sorting)
+Advanced Search  Elastic/Redis interactions => DONE
+Guest Checkout => Done
+Return Management => Done
+Partial Refund => Done
+Variety of discounts promotions - https://dev-docs.spreecommerce.org/internals/promotions
+Abandoned Cart Reminder => Not There
+Shipping Integrations, Multi Warehouses => Done 
+DropShipping => Not There
+Community Extensions
+Themes
+Taxes
+Multiple Shipments to multiple address
+GiftWrap => Not There
+
+
+- Running Offers During Sale
+- View Product => Select and to cart => Checkout => Islogined => Payment => Confirmend => Track => Cancel/Refund => Shipping Partner Ship 
+
+- Shipping Integration => https://www.shipstation.com/
+- Payment Integration => Razorpay/Stripe
+- Taxes Integration Available

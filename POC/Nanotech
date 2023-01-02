@@ -1,0 +1,108 @@
+
+
+# ########################## Question 0 ################################
+# #Given a string s, reverse the order of characters in each word within a sentence
+# ## while still preserving whitespace and initial word order.
+# #Input: s = "Let's play Fifa WorldCup!"
+# #Output: "s'teL yalp afiF !puCdlroW"
+#     
+def reverseWords(s):
+    st = s.split(" ")
+    reverse_str = ""
+    for idx,item in enumerate(st):
+      reverse_str+= str(item[::-1])+ " "
+    return reverse_str
+
+print(reverseWords("Let's play Fifa WorldCup!"))
+
+
+
+# ########################## Question 1 ################################
+# #Given a string, find the length of the longest substring without repeating characters.
+# #Input: "abcabcbb"
+# #Output: 3
+# #Explanation: The answer is "abc", with the length of 3
+#     
+def getLongestSubstring(s):
+    return "result q1"
+
+print(getLongestSubstring("abcabcbb"))
+
+
+
+# 
+# ########################## Question 2 ################################
+# #Check if two String are Anagram
+# #Input: "abcd", "adbc"
+# #Output: True
+# 
+def checkIfAnagram(s1, s2):    
+    return "result q2"
+
+print(checkIfAnagram("abcd", "adbc"))
+# 
+# 
+# 
+# 
+# ########################## Question 3 ################################
+# # Split a string of length N into strings of width k
+# #Input: "lakmsldsmsdf sdksv", 4
+# #Output: ["lakm", "slds", "msdf", " sdk", "sv"]
+# 
+def splitStringCustom(s, k):      
+    return "result q3"
+
+print(splitStringCustom("lakmsldsmsdf sdksv", 4))
+
+
+# # 
+# # ########################## Question 4 ################################
+# # Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+# # Input:
+# # [
+# # [ 1, 2, 3 ],
+# # [ 4, 5, 6 ],
+# # [ 7, 8, 9 ]
+# # ]
+# # Output: [1,2,3,6,9,8,7,4,5]
+# 
+def spiralMatrix(m):
+    top = 0
+    right = len(m)
+    left = 0
+    bottom = len(m[0])
+    
+    res = []
+    
+    temp = []
+    for i in range(left,right):
+      temp.append(m[left][i])
+    res.append(temp)
+    top+=1
+    
+    temp = []
+    for i in range(top,bottom):
+      temp.append(m[i][bottom-1])
+    res.append(temp)
+    bottom-=1
+    
+    while left<=right:
+      temp = []
+      for i in range(right,left,-1):
+        temp.append(m[right-1][i])
+      res.append(temp)
+      
+    while top<=bottom:
+      temp = []
+      for i in range(bottom,top,-1):
+        temp.append(m[i][top])
+      res.append(temp)
+    
+    return res
+    
+
+print(spiralMatrix([
+[ 1, 2, 3 ],
+[ 4, 5, 6 ],
+[ 7, 8, 9 ]
+]))
