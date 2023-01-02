@@ -1,0 +1,2 @@
+- FullStack web3 Project - https://github.com/adrianhajdin/project_web3.0
+- Resource (https://github.com/frankiefab100/Blockchain-Development-Resources#table-of-contents)

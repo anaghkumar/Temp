@@ -1,0 +1,5 @@
+How mining works
+How to setup mining of blocks
+Proof of works (POW)
+Plan of Attack
+Mining Pools
